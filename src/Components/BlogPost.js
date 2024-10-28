@@ -1,8 +1,8 @@
-import blog1 from '../Content/images/blog1.jpeg'
-import blog2 from '../Content/images/blog2.jpeg'
-import blog3 from '../Content/images/blog3.jpeg'
-import blog4 from '../Content/images/blog4.jpeg'
-import blog5 from '../Content/images/blog5.jpeg'
+import blog1 from '../Content/images/blog1.webp'
+import blog2 from '../Content/images/blog2.webp'
+import blog3 from '../Content/images/blog3.webp'
+import blog4 from '../Content/images/blog4.webp'
+import blog5 from '../Content/images/blog5.webp'
 
 const BlogPost = () => {
     return <>

@@ -1,6 +1,6 @@
 import Date from './Date'
 import Form from './Form'
-import aboutImg from '../Content/images/om.jpeg';
+import aboutImg from '../Content/images/om.webp';
 
 
 const About = () => {
@@ -8,15 +8,10 @@ const About = () => {
 
                 <div className="about" >
                 <Date />
-                    <div className="btns">
-                        <button className="hide-btn">Göm</button>
-                        <button className="show-btn">Visa</button>
-                </div>
-
                 <div className="about-us">
                     <div className="about-info">
                         <div className="about-txt">
-                            <h3>Om oss</h3>
+                            <h3>About</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque quis culpa dolorem
                                 voluptas
                                 in voluptatibus perferendis illum id esse distinctio, veniam eligendi ab, vel libero
@@ -35,60 +30,22 @@ const About = () => {
                             </p>
                         </div>
                         <img src={aboutImg} alt="om-img" />
-                    </div>
-
-                    
-                    <div className="table">
-                        <h4 id="snabbfakta">Snabbfakta om oss</h4>
-                        <table id="snabbfakta">
-                            <tr>
-                                <th>Påstående </th>
-                                <th>Ja</th>
-                                <th>Nej</th>
-                            </tr>
-                            <tr>
-                                <td>Lorem Ipsum</td>
-                                <td>X</td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td>Lorem Ipsum</td>
-                                <td> </td>
-                                <td>X</td>
-                            </tr>
-                            <tr>
-                                <td>Lorem Ipsum</td>
-                                <td> </td>
-                                <td>X</td>
-                            </tr>
-                            <tr>
-                                <td>Lorem Ipsum</td>
-                                <td>X</td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td>Lorem Ipsum</td>
-                                <td>X</td>
-                                <td> </td>
-                            </tr>
-                        </table>
-                    </div>
-                    
+                    </div>                    
                     <div className="contact">
                         <div className="contact-details">
-                            <h3>Kontakta oss</h3>
+                            <h3>Contact</h3>
 
                             <div className="info">
-                                <h4>Kontaktuppgifter</h4>
+                                <h4>Contact details</h4>
                                 <p className="name">Jane Doe</p>
                                 <div className="tel">
-                                    <p>Tel: <a href="tel:123-456-7890"> 123-456-7890</a></p>
+                                    <p>Phone: <a href="tel:123-456-7890"> 123-456-7890</a></p>
                                 </div>
                                 <div className="mail">
-                                    <p>Email: <a href="mail:info@info.com">info@grasidingens.com</a></p>
+                                    <p>Email: <a href="mail:info@info.com">hello@fractions.dev</a></p>
                                 </div>
-                                <p className="address">Adress: Vårfrukyrka Viggeby 17,<br />
-                                    745 91 Enköping</p>
+                                <p className="address">Address: Streetname 123,<br />
+                                    123 45 Stockholm</p>
                             </div>
                         </div>
                     </div>

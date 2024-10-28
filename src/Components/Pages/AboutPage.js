@@ -1,4 +1,3 @@
-import Date from "../Date.js";
 import About from '../About.js'
 
 const AboutPage = () => {

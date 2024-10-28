@@ -30,9 +30,6 @@ export default function App() {
   );
 }
 
-// export default App;
-// import App from './App';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <App />

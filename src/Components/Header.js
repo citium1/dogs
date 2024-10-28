@@ -5,7 +5,7 @@ const Header = () => {
         <section className="header-section sticky">
             <nav className="navigation">
                 <div className="logo">
-                <Link to="/"><h1>Gråsidingens Kennel</h1></Link>
+                <Link to="/"><h1>Imaginary Kennel</h1></Link>
                 </div>
                 <div className="menu-container">
                     <div className="toggle">
@@ -13,19 +13,19 @@ const Header = () => {
                     </div>
                     <ul className="menu hide" id="menu">
                         <li className="menu-item" >
-                            <Link to="/">Hem</Link>
+                            <Link to="/">Home</Link>
                         </li>
                         <li className="menu-item" >
-                            <Link to="om">Om oss</Link>
+                            <Link to="om">About</Link>
                         </li>
                         <li className="menu-item">
-                            <Link to="hundar">Våra hundar</Link>
+                            <Link to="hundar">Our dogs</Link>
                         </li>
                         <li className="menu-item">
-                        <Link to="valpar">Valpkullar</Link>
+                        <Link to="valpar">Litters</Link>
                         </li>
                         <li className="menu-item"> 
-                        <Link to="blogg">Blogg</Link></li>
+                        <Link to="blogg">Blog</Link></li>
                     </ul>
 
                 </div>
@@ -33,7 +33,5 @@ const Header = () => {
         </section>
     );
 }
-
-
 
 export default Header;
